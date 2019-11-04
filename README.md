@@ -55,7 +55,7 @@ var search3 = new URLSearchParams({ id: 1, from: "home" });
 // from location.search, will remove first "?" automatically
 var search4 = new URLSearchParams(window.location.search);
 
-// from anther URLSearchParams object
+// from another URLSearchParams object
 var search5 = new URLSearchParams(search2);
 
 // from a sequence
